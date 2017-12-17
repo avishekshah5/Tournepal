@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/admin"
+    android:title="@string/admin"
+    android:icon="@drawable/admind"
+    app:showAsAction="always" />
+
+    <item
+        android:id="@+id/setting"
+        android:title="@string/setting"
+        android:icon="@drawable/ic_build_black_24dp"
+
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/developer"
+         android:title="@string/develper_option"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/privacy"
+        android:title="@string/privacy_and_policy"
+        app:showAsAction="ifRoom"
+
+        />
+    <item
+        android:id="@+id/aboutus"
+        android:title="@string/about_us"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_phone_android_black_24dp"/>
+</menu>

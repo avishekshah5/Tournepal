@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/locationdetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avh.tour_dev.locationdetail">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linear1"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                android:scaleType="fitXY"
+                android:id="@+id/imge1"
+                android:contentDescription="@null"
+                />
+
+
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/linear1"
+            android:background="#3c413a"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/linear1"
+            android:id="@+id/linear2"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/locationinfo"
+                android:hint="@string/location"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColorHint="#000"
+                android:textSize="30sp"
+                android:drawableStart="@drawable/ic_search_black_24dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#3c413a"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/addressinfo1"
+                android:hint="@string/address"
+                android:textColorHint="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/linear2"
+            android:background="#3c413a"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linear5"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:id="@+id/imge2"
+               android:layout_marginTop="313dp"
+                android:contentDescription="@null"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+</RelativeLayout>
+</RelativeLayout>

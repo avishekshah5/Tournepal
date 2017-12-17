@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.avh.tour_dev">
+       <uses-permission
+           android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+           >
+
+
+
+       </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET">
+
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="true">
+
+
+        <activity
+            android:name=".signupactivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".adminactivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".menu_activity" />
+        <activity
+            android:name=".adminview"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".userlist"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".userdetail"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".startupActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".locationlist" />
+        <activity android:name=".locationdetail" />
+        <activity android:name=".addlocationactivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <!--<meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+-->
+        <activity
+            android:name=".recommendactivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".Fragementexample" />
+        <activity android:name=".locationdetail1" />
+        <activity
+            android:name=".locationListy"
+            android:label="@string/title_activity_location_listy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".locationdetail2" />
+    </application>
+
+
+
+</manifest>

@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tournep</string>
+    <string name="tournepal">tournep</string>
+    <string name="TOURNEPAL">TOURNEPAL</string>
+    <string name="title_activity_location_listy">locationListy</string>
+    <string name="updated_by">updated by</string>
+
+    <string name="scamreport">Scam Report</string>
+    <string name="delete_user">Delete User</string>
+    <string name="update_userinfo">Update Userinfo</string>
+    <string name="user_list">User List</string>
+    <string name="admin_list">Admin List</string>
+    <string name="addedby">Addedby</string>
+    <string name="abishek">abishek</string>
+    <string name="login">LOGIN</string>
+    <string name="developer_id">Developer ID</string>
+    <string name="admin_name">Admin Name</string>
+    <string name="admin_panel">ADMIN PANEL</string>
+
+    <string name="location1">Location</string>
+    <string name="search">SEARCH</string>
+    <string name="user_name">User Name</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forgot_your_password">Forgot your password</string>
+    <string name="password">Password</string>
+    <string name="add">ADD</string>
+    <string name="added_by">Added by</string>
+    <string name="route">Route</string>
+    <string name="accomodation">Accomodation</string>
+    <string name="feature">Feature</string>
+    <string name="description">Description</string>
+
+    <string name="location">Location</string>
+    <string name="add_image_2">Add Image 2</string>
+    <string name="add_image_1">Add Image 1</string>
+    <string name="register">REGISTER</string>
+    <string name="dob">DOB</string>
+    <string name="female">FEMALE</string>
+    <string name="male">MALE</string>
+    <string name="gender">GENDER</string>
+    <string name="phone">Phone</string>
+
+    <string name="sign_up">SIGN UP</string>
+    <string name="address">Address</string>
+    <string name="username">User Name</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="nearby">Nearby</string>
+    <string name="trending">trending</string>
+    <string name="notification">Notification</string>
+    <string name="add1">Add</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_and_policy">Privacy and Policy</string>
+    <string name="develper_option">Develper Option</string>
+    <string name="setting">Setting</string>
+    <string name="admin">ADMIN</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+</resources>

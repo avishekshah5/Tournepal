@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/locationdetail2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.avh.tour_dev.locationdetail2">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="#3c413a"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        android:minLines="4"
+
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:hint="@string/feature"
+        android:background="#b1f22c4a"
+        android:id="@+id/featureinfo"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/featureinfo"
+        android:id="@+id/view"
+        android:background="#3c413a"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/view"
+        android:id="@+id/view1"
+
+        android:background="#3c413a"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/view1"
+        android:minLines="4"
+        android:textColorHint="#FFF"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:hint="@string/route"
+        android:id="@+id/routeinfo"
+        android:background="#b115ea5c"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+          android:id="@+id/view2"
+        android:background="#000"
+        android:layout_below="@+id/routeinfo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/view2"
+        android:minLines="4"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:hint="@string/addedby"
+        android:id="@+id/addedinfo"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:autoLink="phone"
+        />
+
+
+</RelativeLayout>

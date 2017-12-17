@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background14"
+    android:padding="5dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/admin_panel"
+        android:textSize="50sp"
+        android:id="@+id/title"
+        android:textColor="#151515"
+        android:gravity="center">
+
+    </TextView>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_marginTop="60dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:layout_marginStart="25dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+       android:id="@+id/adminname"
+
+        android:hint="@string/admin_name"
+        android:textColorHint="#FFF"
+        android:textSize="26sp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adminpassword"
+        android:inputType="textPassword"
+        android:layout_below="@+id/adminname"
+        android:hint="@string/password"
+        android:textColorHint="#FFF"
+        android:textSize="26sp"
+
+        android:layout_alignStart="@+id/adminname"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adminid"
+            android:layout_below="@+id/adminpassword"
+            android:hint="@string/developer_id"
+            android:textColorHint="#FFF"
+            android:textSize="26sp"
+
+            android:layout_alignStart="@+id/adminname"/>
+    </RelativeLayout>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="400dp"
+       android:layout_marginStart="135dp">
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/login"
+    android:background="#f8a9c4ec"
+    android:id="@+id/admin1login"
+    android:layout_marginTop="60dp"
+    />
+   </RelativeLayout>
+
+</RelativeLayout>
+     

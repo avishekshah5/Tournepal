@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/added"
+        android:title="@string/add1"
+        app:showAsAction="always"
+        android:icon="@drawable/iaddblack_24dp"
+
+        />
+    <item
+        android:id="@+id/notification"
+        android:title="@string/notification"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/notification"
+
+        />
+
+
+
+    <item
+        android:id="@+id/trending"
+        android:title="@string/trending"
+        app:showAsAction="always"
+        android:icon="@drawable/trending1"
+
+        />
+    <item
+        android:id="@+id/nearby"
+        android:title="@string/nearby"
+        app:showAsAction="always"
+        android:icon="@drawable/nearbyq"
+
+        />
+    <item
+        android:id="@+id/recommend"
+        android:title="@string/recommendation"
+        app:showAsAction="always"
+        android:icon="@drawable/recommend1"
+
+        />
+    <item
+        android:id="@+id/signout"
+        android:title="@string/sign_out"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/accountset"
+        android:title="@string/account_setting"
+        app:showAsAction="ifRoom" />
+
+
+
+
+</menu>
